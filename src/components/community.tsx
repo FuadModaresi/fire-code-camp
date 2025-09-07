@@ -25,7 +25,7 @@ export function Community() {
           </p>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          {posts.map((post) => (
+          {posts.slice(0, 4).map((post) => (
             <a key={post.id} href="https://www.instagram.com/fire_code_camp" target="_blank" rel="noopener noreferrer" className="group relative block overflow-hidden rounded-lg">
               <Image
                 src={post.imageUrl}
