@@ -1,4 +1,5 @@
 
+
 'use client';
 
 import { useState } from 'react';
@@ -18,6 +19,11 @@ export default function Home() {
       'header.tsx': '// Header component code',
     },
     'layout.tsx': '// Root layout code',
+    'main.py': `def greet(name):
+    print(f"Hello, {name} from Python!")
+
+greet("Fire Code Camp")
+`
   },
   'package.json': '{ "name": "fire-code-camp" }',
 };
@@ -36,7 +42,15 @@ export function IdeSection() {
 
   const handleRun = () => {
     setIsRunning(true);
-    setOutput(`> Running ${activeFile}...\n> Build successful.\n> Hello, Fire Code Camp!`);
+    let runOutput = `> Running ${activeFile}...\n> Build successful.\n`;
+
+    if (activeFile.endsWith('.py')) {
+      runOutput += `> Hello, Fire Code Camp from Python!`;
+    } else {
+      runOutput += `> Hello, Fire Code Camp!`;
+    }
+    
+    setOutput(runOutput);
     setTimeout(() => {
       setIsRunning(false);
     }, 1000);
@@ -46,11 +60,12 @@ export function IdeSection() {
     return Object.entries(tree).map(([name, content]) => {
       const currentPath = path ? `${path}/${name}` : name;
       if (typeof content === 'string') {
+        const Icon = name.endsWith('.json') ? FileJson : name.endsWith('.py') ? Code : File;
         return (
           <div key={currentPath}
                className={`flex items-center gap-2 cursor-pointer p-1 rounded-md text-sm ${activeFile === currentPath ? 'bg-accent text-accent-foreground' : 'hover:bg-accent/50'}`}
                onClick={() => handleFileClick(currentPath, content)}>
-            {name.endsWith('.json') ? <FileJson className="h-4 w-4 shrink-0" /> : <File className="h-4 w-4 shrink-0" />}
+            <Icon className="h-4 w-4 shrink-0" />
             <span>{name}</span>
           </div>
         )
