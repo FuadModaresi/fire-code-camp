@@ -24,6 +24,22 @@ const courses = [
     dataAiHint: "website design",
   },
   {
+    title: "Python Programming Basics",
+    description: "A fun introduction to the world of Python. Learn variables, loops, and functions.",
+    level: "Beginner",
+    language: "Python",
+    image: "https://picsum.photos/600/400?random=14",
+    dataAiHint: "snake python",
+  },
+  {
+    title: "JavaScript Fundamentals",
+    description: "Get started with the language of the web. Perfect for aspiring web developers.",
+    level: "Beginner",
+    language: "JavaScript",
+    image: "https://picsum.photos/600/400?random=15",
+    dataAiHint: "web browser",
+  },
+  {
     title: "Game Development with Pygame",
     description: "Learn to create your own 2D games using Python and the Pygame library.",
     level: "Intermediate",
