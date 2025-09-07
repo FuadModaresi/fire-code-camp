@@ -8,8 +8,10 @@ import {
   Sheet,
   SheetContent,
   SheetTrigger,
-  SheetClose
+  SheetClose,
+  SheetTitle
 } from "@/components/ui/sheet";
+import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 
 const navLinks = [
   { href: "#courses", label: "Courses" },
@@ -53,6 +55,11 @@ export function Header() {
                 </Button>
               </SheetTrigger>
               <SheetContent side="left" className="pr-0 pt-10">
+                <SheetTitle asChild>
+                  <VisuallyHidden>
+                    <h2>Mobile Menu</h2>
+                  </VisuallyHidden>
+                </SheetTitle>
                 <Link href="/" className="flex items-center space-x-2 px-6">
                   <Flame className="h-6 w-6 text-primary" />
                   <span className="font-bold">Fire Code Camp</span>
