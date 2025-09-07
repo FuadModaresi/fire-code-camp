@@ -6,7 +6,6 @@ import { Community } from '@/components/community';
 import { ProgressTracking } from '@/components/progress-tracking';
 import { Testimonials } from '@/components/testimonials';
 import { Footer } from '@/components/footer';
-import { IdeSection } from '@/components/ide-section';
 
 export default function Home() {
   return (
@@ -16,7 +15,6 @@ export default function Home() {
         <Hero />
         <PersonalizedLearningPath />
         <CourseCatalog />
-        <IdeSection />
         <ProgressTracking />
         <Community />
         <Testimonials />
