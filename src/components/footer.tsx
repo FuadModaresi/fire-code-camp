@@ -1,20 +1,22 @@
 import Link from 'next/link';
-import { Flame, Instagram } from 'lucide-react';
+import { Flame, Github, Instagram, Send, Youtube, X } from 'lucide-react';
 
-function TwitterIcon(props: any) {
+function TelegramIcon(props: any) {
   return (
-    <svg {...props} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M22 4s-.7 2.1-2 3.4c1.6 1.4 2.8 3.2 3 5.2-1.4 1-2.8.8-4.2 0-1.2 1.5-2.8 2.5-4.5 3-2 .5-4.3.3-6-1.5-2-2.2-2.8-5-2-7.5.8-1.2 2-2 3.5-2.2.8-.2 1.7-.2 2.5 0-2.2 2.3-1.2 5.3 1.5 6.5" />
-    </svg>
-  );
-}
-
-function InstagramIcon(props: any) {
-  return (
-    <svg {...props} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
-      <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
-      <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+    <svg
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="m22 2-7 20-4-9-9-4Z" />
+      <path d="M22 2 11 13" />
     </svg>
   );
 }
@@ -32,8 +34,11 @@ export function Footer() {
             </Link>
             <p className="text-muted-foreground">Igniting the next generation of coders.</p>
             <div className="flex gap-4 mt-2">
-              <a href="https://www.instagram.com/fire_code_camp" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary"><InstagramIcon className="h-5 w-5" /></a>
-              <a href="#" className="text-muted-foreground hover:text-primary"><TwitterIcon className="h-5 w-5" /></a>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary"><Github className="h-5 w-5" /></a>
+              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary"><Youtube className="h-5 w-5" /></a>
+              <a href="https://telegram.org" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary"><TelegramIcon className="h-5 w-5" /></a>
+              <a href="https://x.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary"><X className="h-5 w-5" /></a>
+              <a href="https://www.instagram.com/fire_code_camp" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary"><Instagram className="h-5 w-5" /></a>
             </div>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-8 md:col-span-2">
