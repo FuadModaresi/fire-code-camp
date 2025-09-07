@@ -28,7 +28,7 @@ export function Footer() {
           <div className="flex flex-col gap-2">
             <Link href="/" className="flex items-center gap-2">
               <Flame className="h-6 w-6 text-primary" />
-              <span className="font-bold">Ember Programming</span>
+              <span className="font-bold">Fire Code Camp</span>
             </Link>
             <p className="text-muted-foreground">Igniting the next generation of coders.</p>
             <div className="flex gap-4 mt-2">
@@ -63,7 +63,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-8 border-t pt-8 text-center text-sm text-muted-foreground">
-          © {year} Ember Programming. All rights reserved.
+          © {year} Fire Code Camp. All rights reserved.
         </div>
       </div>
     </footer>

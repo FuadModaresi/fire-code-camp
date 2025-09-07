@@ -3,8 +3,8 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'Ember Programming',
-  description: 'Ignite your coding journey with Ember Programming. Fun, interactive coding courses for teens.',
+  title: 'Fire Code Camp',
+  description: 'Ignite your coding journey with Fire Code Camp. Fun, interactive coding courses for teens.',
 };
 
 export default function RootLayout({

@@ -25,7 +25,7 @@ export function Header() {
           <Link href="/" className="mr-6 flex items-center space-x-2">
             <Flame className="h-6 w-6 text-primary" />
             <span className="hidden font-bold sm:inline-block">
-              Ember Programming
+              Fire Code Camp
             </span>
           </Link>
           <nav className="flex items-center space-x-6 text-sm font-medium">
@@ -53,7 +53,7 @@ export function Header() {
               <SheetContent side="left" className="pr-0 pt-10">
                 <Link href="/" className="flex items-center space-x-2 px-6">
                   <Flame className="h-6 w-6 text-primary" />
-                  <span className="font-bold">Ember Programming</span>
+                  <span className="font-bold">Fire Code Camp</span>
                 </Link>
                 <div className="my-4 h-[calc(100vh-8rem)] pb-10 pl-6">
                   <div className="flex flex-col space-y-4">

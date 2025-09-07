@@ -5,7 +5,7 @@ const testimonials = [
     {
         name: "Alex J.",
         age: 15,
-        quote: "Ember Programming made coding feel like a game! I built my first website in a week and it was so much fun.",
+        quote: "Fire Code Camp made coding feel like a game! I built my first website in a week and it was so much fun.",
         avatar: "https://picsum.photos/100/100?random=7",
         dataAiHint: "teenager portrait"
     },

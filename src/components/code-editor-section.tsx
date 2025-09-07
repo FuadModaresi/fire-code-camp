@@ -2,7 +2,7 @@ import { CodeSnippet } from './code-snippet';
 import { Button } from './ui/button';
 
 const exampleCode = `
-# Welcome to Ember Programming!
+# Welcome to Fire Code Camp!
 # This is a Python example.
 # Run this code to see what happens.
 

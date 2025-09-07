@@ -12,7 +12,7 @@ export function Hero() {
               Ignite Your Coding Journey
             </h1>
             <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-              Welcome to Ember Programming, the most engaging way for teens to learn to code.
+              Welcome to Fire Code Camp, the most engaging way for teens to learn to code.
               Explore our interactive courses and join a vibrant community of young developers.
             </p>
           </div>
