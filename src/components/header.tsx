@@ -14,6 +14,7 @@ import {
 const navLinks = [
   { href: "#courses", label: "Courses" },
   { href: "#tutorials", label: "Tutorials" },
+  { href: "#ide", label: "IDE" },
   { href: "#community", label: "Community" },
   { href: "#instagram", label: "Instagram" },
 ];

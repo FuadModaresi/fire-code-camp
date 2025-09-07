@@ -8,6 +8,7 @@ import { ProgressTracking } from '@/components/progress-tracking';
 import { Testimonials } from '@/components/testimonials';
 import { InstagramFeed } from '@/components/instagram-feed';
 import { Footer } from '@/components/footer';
+import { IdeSection } from '@/components/ide-section';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <PersonalizedLearningPath />
         <CourseCatalog />
         <CodeEditorSection />
+        <IdeSection />
         <ProgressTracking />
         <Community />
         <InstagramFeed />
