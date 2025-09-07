@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Flame } from 'lucide-react';
+import { Flame, Instagram } from 'lucide-react';
 
 function TwitterIcon(props: any) {
   return (

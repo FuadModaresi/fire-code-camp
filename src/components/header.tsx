@@ -15,6 +15,7 @@ const navLinks = [
   { href: "#courses", label: "Courses" },
   { href: "#tutorials", label: "Tutorials" },
   { href: "#community", label: "Community" },
+  { href: "#instagram", label: "Instagram" },
 ];
 
 export function Header() {

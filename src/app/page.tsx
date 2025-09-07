@@ -6,6 +6,7 @@ import { CodeEditorSection } from '@/components/code-editor-section';
 import { Community } from '@/components/community';
 import { ProgressTracking } from '@/components/progress-tracking';
 import { Testimonials } from '@/components/testimonials';
+import { InstagramFeed } from '@/components/instagram-feed';
 import { Footer } from '@/components/footer';
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
         <CodeEditorSection />
         <ProgressTracking />
         <Community />
+        <InstagramFeed />
         <Testimonials />
       </main>
       <Footer />
