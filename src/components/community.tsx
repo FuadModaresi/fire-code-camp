@@ -6,10 +6,10 @@ import { Instagram } from 'lucide-react';
 // TODO: Replace with your actual Instagram posts. 
 // You would typically fetch this data from the Instagram API.
 const posts = [
-  { id: 1, imageUrl: 'https://picsum.photos/400/400?random=10', dataAiHint: 'code abstract', caption: 'Coding our future, one line at a time. #FireCodeCamp #TeenCoders' },
-  { id: 2, imageUrl: 'https://picsum.photos/400/400?random=11', dataAiHint: 'students learning', caption: 'Collaboration makes the dream work! Our students tackling a group project. #CodingCommunity' },
-  { id: 3, imageUrl: 'https://picsum.photos/400/400?random=12', dataAiHint: 'gaming retro', caption: 'From player to creator. Our game dev course is on fire! #GameDev #Python' },
-  { id: 4, imageUrl: 'https://picsum.photos/400/400?random=13', dataAiHint: 'laptop lifestyle', caption: 'Weekend vibes: Learn to code from anywhere. #LearnToCode #FireCodeCamp' },
+  { id: 1, imageUrl: 'https://placehold.co/400x400/000000/FF5733/png?text=Fire+Code+Camp', dataAiHint: 'fire logo', caption: 'Coding our future, one line at a time. #FireCodeCamp #TeenCoders' },
+  { id: 2, imageUrl: 'https://placehold.co/400x400/000000/FF5733/png?text=Fire+Code+Camp', dataAiHint: 'fire logo', caption: 'Collaboration makes the dream work! Our students tackling a group project. #CodingCommunity' },
+  { id: 3, imageUrl: 'https://placehold.co/400x400/000000/FF5733/png?text=Fire+Code+Camp', dataAiHint: 'fire logo', caption: 'From player to creator. Our game dev course is on fire! #GameDev #Python' },
+  { id: 4, imageUrl: 'https://placehold.co/400x400/000000/FF5733/png?text=Fire+Code+Camp', dataAiHint: 'fire logo', caption: 'Weekend vibes: Learn to code from anywhere. #LearnToCode #FireCodeCamp' },
 ];
 
 export function Community() {
