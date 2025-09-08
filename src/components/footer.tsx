@@ -34,7 +34,7 @@ export function Footer() {
             </Link>
             <p className="text-muted-foreground">Igniting the next generation of coders.</p>
             <div className="flex gap-4 mt-2">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary"><Github className="h-5 w-5" /></a>
+              <a href="https://github.com/FuadModaresi" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary"><Github className="h-5 w-5" /></a>
               <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary"><Youtube className="h-5 w-5" /></a>
               <a href="https://telegram.org" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary"><TelegramIcon className="h-5 w-5" /></a>
               <a href="https://x.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary"><X className="h-5 w-5" /></a>
