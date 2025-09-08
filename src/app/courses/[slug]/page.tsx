@@ -1,4 +1,4 @@
-import { courseData } from '@/components/course-catalog';
+import { courseData } from '@/lib/course-data';
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import { Header } from '@/components/header';
