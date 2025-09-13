@@ -4,7 +4,6 @@ import { PersonalizedLearningPath } from '@/components/personalized-learning-pat
 import { CourseCatalog } from '@/components/course-catalog';
 import { Community } from '@/components/community';
 import { ProgressTracking } from '@/components/progress-tracking';
-import { Testimonials } from '@/components/testimonials';
 import { Footer } from '@/components/footer';
 
 export default function Home() {
@@ -17,7 +16,6 @@ export default function Home() {
         <CourseCatalog />
         <ProgressTracking />
         <Community />
-        <Testimonials />
       </main>
       <Footer />
     </div>
