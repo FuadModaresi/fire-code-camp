@@ -25,10 +25,10 @@ const courses = [
     image: "/community-post-1.jpg",
     dataAiHint: "snake python",
   },
-    {
+  {
     title: "JavaScript Fundamentals",
     description: "An introduction to JavaScript, covering variables, data types, and functions. By the end, you'll be able to add interactivity to your web pages.",
-    level: "Beginner",ht
+    level: "Beginner",
     language: "JavaScript",
     image: "/community-post-1.jpg",
     dataAiHint: "code on screen",
