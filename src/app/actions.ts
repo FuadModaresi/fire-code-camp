@@ -1,4 +1,4 @@
-'use server';
+'use client';
 
 import { personalizedLearningPath } from '@/ai/flows/personalized-learning-path';
 import type { PersonalizedLearningPathInput } from '@/ai/flows/personalized-learning-path';
